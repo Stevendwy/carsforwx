@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/cars/cars",
+    "pages/car_detail/ao_di/ao_di",
+    "pages/car_detail/super_car/super_car",
+    "pages/wx_API/wx_API",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#00BFFF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/shou_ye.png",
+      "selectedIconPath": "image/shou_ye-select.png"
+    },
+    {
+      "text":"选车",
+      "pagePath":"pages/cars/cars",
+      "iconPath":"image/xuan_che.png",
+      "selectedIconPath":"image/xuan_che-select.png"
+    },{
+      "text":"WX_API",
+      "pagePath":"pages/wx_API/wx_API",
+      "iconPath":"image/wx_API.png",
+      "selectedIconPath":"image/wx_API-select.png"
+    }]
+  }
+}
